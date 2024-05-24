@@ -1,0 +1,32 @@
+.text{
+    position: relative;
+}
+.text::after{
+    margin-top: 10px;
+    gap: 10;
+    content: " ";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.4s;
+    width: 0;
+    background-color: black;
+    
+
+}
+.text:hover:after{
+    width: 100%;
+}
+
+.banner{
+    animation: move 2s;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
