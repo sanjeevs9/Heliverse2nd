@@ -17,10 +17,12 @@ function App() {
   return (
     <>
     <Navbar1/>
+    <div className='bg-[url("https://trx-effects.ancorathemes.com/wp-content/uploads/2021/04/bg.jpg")]' >
     
       <Navbar/>
       <Main/>
       <Banner/>
+      </div>
       
      
     </>
