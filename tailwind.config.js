@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 18s linear infinite',
-        marquee2: 'marquee2 18s linear infinite',
+        marquee: 'marquee 15s linear infinite',
+        marquee2: 'marquee2 5s linear infinite',
       },
       keyframes: {
         marquee: {
@@ -20,6 +20,10 @@ export default {
           '100%': { transform: 'translateX(0%)' },
         },
       },
+      colors:{
+        "dark":"#280949",
+        "light":"#d81f56"
+      }
     }
   },
   plugins: [],

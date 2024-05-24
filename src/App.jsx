@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
 import Banner from './components/Banner';
+import Main from './components/Main';
 
 function App() {
  const cookie=useRef();
@@ -18,7 +19,9 @@ function App() {
     <Navbar1/>
     
       <Navbar/>
+      <Main/>
       <Banner/>
+      
      
     </>
   )

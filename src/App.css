@@ -30,3 +30,9 @@
         transform: translateX(-100%);
     }
 }
+.down{
+    z-index: 1;
+}
+.up{
+    z-index: 10;
+}

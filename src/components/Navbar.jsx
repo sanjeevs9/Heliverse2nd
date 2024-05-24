@@ -3,7 +3,7 @@ import  "../App.css"
 export default function Navbar(){
     return(
         <>
-        <div className='bg-pink-50 w-full h-24 flex justify-between pl-14 pr-14  items-center'>
+        <div className=' w-full h-28 flex justify-between pl-14 pr-14  items-center'>
         <div>
           <img className='size-fit h-8 mt-1 ' src="https://trx-effects.ancorathemes.com/wp-content/uploads/2021/04/logo-2x.png"></img>
         </div>
