@@ -52,7 +52,7 @@ export default function Main() {
                             </GsapMagnetic>
                         </h1>
                     </div>
-                    <div className="z-10">
+                    <div className="z-1">
                         <h1 className="down inline-block text-transparent bg-clip-text  bg-gradient-to-r from-dark to-light text-[400px] font-bold z-10">
                             U
                         </h1>

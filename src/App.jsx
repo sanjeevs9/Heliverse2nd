@@ -7,6 +7,7 @@ import Navbar1 from './components/Navbar1';
 import Banner from './components/Banner';
 import Main from './components/Main';
 import gsap from 'gsap';
+import ScrollCircle from './components/Scroll';
 
 function App() {
   let tl=gsap.timeline();
@@ -24,11 +25,13 @@ function App() {
     <div className='bg-[url("https://trx-effects.ancorathemes.com/wp-content/uploads/2021/04/bg.jpg")]' >
      
     <Navbar/>
-  
+    
       <Main/>
       <Banner/>
-      </div>
       
+      </div>
+      <ScrollCircle/>
+
      
     </>
   )
