@@ -27,7 +27,7 @@ export default function Main() {
 
     return (
         <>
-            <div className="flex items-center justify-center flex-col ">
+            <div className="flex items-center justify-center flex-col overflow-hidden">
                 <div className="text-[#152035] flex text-[4.5rem] font-semibold z-1  translate-y-24">
                     Visual Effects & Animation Kit
                 </div>
