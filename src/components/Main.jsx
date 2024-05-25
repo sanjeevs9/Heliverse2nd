@@ -52,15 +52,15 @@ export default function Main() {
                             </GsapMagnetic>
                         </h1>
                     </div>
-                    <div className="z-1">
-                        <h1 className="down inline-block text-transparent bg-clip-text  bg-gradient-to-r from-dark to-light text-[400px] font-bold z-10">
+                    <div className="z-10">
+                        <h1 className="down inline-block text-transparent bg-clip-text  bg-gradient-to-r from-dark to-light text-[400px] font-bold z-1">
                             U
                         </h1>
                     </div>
-                    <div className="-translate-x-12 z-20">
+                    <div className="-translate-x-12 z-30">
                         <h1 className="relative up inline-block text-transparent bg-clip-text bg-gradient-to-r from-dark to-light text-[400px] font-bold z-20 ">
                             G
-                            <GsapMagnetic xcordinate={-32} ycordinate={208}>
+                            <GsapMagnetic xcordinate={-30} ycordinate={208}>
                             <div className="absolute top-0 rotate-[30deg] translate-y-52 -translate-x-8">
                                 <Tag text={"Dynamic"} from={"from-[#fdcfb0]"} to={"to-[#fe698e]"}></Tag>
                             </div>

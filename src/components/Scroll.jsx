@@ -19,7 +19,7 @@ const ScrollCircle = () => {
 
     return (
         <>
-            <div className='-z-10' ref={ref} style={{ height: '200vh', display: 'flex', justifyContent: 'center', alignItems: 'start', paddingTop: "120px" }}>
+            <div className='-z-1' ref={ref} style={{ height: '200vh', display: 'flex', justifyContent: 'center', alignItems: 'start', paddingTop: "120px" }}>
 
                 <motion.div
                     style={{
@@ -33,7 +33,7 @@ const ScrollCircle = () => {
                         position: "absolute"
 
                     }} />
-                <div className='-z-10' style={{ top: "-48%", position: "relative", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', zIndex: 100, color: "white" }}>
+                {/* <div className='-z-10' style={{ top: "-48%", position: "relative", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', zIndex: 100, color: "white" }}>
                     <div className=''>
                         <div className='pl-[100px] pt-32'>
                             <svg fill="#ffffff" height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 476.213 476.213" xml:space="preserve" stroke="#ffffff">
@@ -51,12 +51,12 @@ const ScrollCircle = () => {
                             Dynamic Background
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
             </div>
-            <div ref={ref1} style={{ height: '200vh', display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
+            <div className='-z-1' ref={ref1} style={{ height: '200vh', display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
                 <motion.div
                     style={{
                         width: 100,
