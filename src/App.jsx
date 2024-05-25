@@ -8,19 +8,33 @@ import Banner from './components/Banner';
 import Main from './components/Main';
 import gsap from 'gsap';
 import ScrollCircle from './components/Scroll';
+import { AnimatedCursor } from './components/AnimatedCursor';
 
 function App() {
   let tl=gsap.timeline();
+  
+  // useEffect(()=>{
+
+  //   function move(e){
+  //     document.getElementById("circle")
+  //     tl.to("#circle",{x:e.clientX,duration:0})
+  //     .to("#circle",{y:e.clientY,duration:0})
+  //   }
+
+  //   window.addEventListener("mousemove",move);
+
+  //   return()=>{
+  //     window.removeEventListener("mousemove",move);
+  //   }
+  // },[])
+
  
-  window.addEventListener("mousemove",(e)=>{
-    document.getElementById("circle")
-    tl.to("#circle",{x:e.clientX,duration:0})
-    .to("#circle",{y:e.clientY,duration:0})
-  })
 
   return (
     <>
+     <AnimatedCursor/>
     <Navbar1/>
+   
     
     <div className='bg-[url("https://trx-effects.ancorathemes.com/wp-content/uploads/2021/04/bg.jpg")]' >
      
