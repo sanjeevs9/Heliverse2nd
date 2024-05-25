@@ -6,8 +6,8 @@ export const AnimatedCursor = () => {
   
     useEffect(() => {
       const moveCursor = (e) => {
-        setCursorX(e.clientX - 7);
-        setCursorY(e.clientY - 7);
+        setCursorX(e.clientX );
+        setCursorY(e.clientY );
       };
       console.log({cursorX,cursorY})
   
@@ -19,7 +19,7 @@ export const AnimatedCursor = () => {
   
     return (
         <>
-        <div className='h-[14px] w-[14px] z-[10000] rounded-full mix-blend-difference absolute bg-white'  style={{
+        <div className='h-[14px] w-[14px] z-[10000] rounded-full mix-blend-difference fixed bg-white'  style={{
         transform: `translate(${cursorX}px, ${cursorY}px)`
       }}>
 
