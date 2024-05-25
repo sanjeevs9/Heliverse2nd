@@ -46,7 +46,7 @@ export default function Main() {
                         <h1 className="relative up inline-block text-transparent bg-clip-text bg-gradient-to-r from-dark to-light text-[400px] font-bold z-20">
                             L
                             <GsapMagnetic xcordinate={-40} ycordinate={340}>
-                            <div className="absolute  rotate-[-15deg] top-0 translate-y-85 -translate-x-10">
+                            <div className="absolute  rotate-[-15deg] top-0 translate-y-[340px] -translate-x-10">
                                 <Tag text={"Mouse"} from={"from-[#b4f5f4]"} to={"to-[#eac4e6]"}></Tag>
                             </div>
                             </GsapMagnetic>
