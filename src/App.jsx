@@ -6,9 +6,16 @@ import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
 import Banner from './components/Banner';
 import Main from './components/Main';
+import gsap from 'gsap';
 
 function App() {
- const cookie=useRef();
+  let tl=gsap.timeline();
+ 
+  window.addEventListener("mousemove",(e)=>{
+    document.getElementById("circle")
+    tl.to("#circle",{x:e.clientX,duration:0})
+    .to("#circle",{y:e.clientY,duration:0})
+  })
 
   return (
     <>

@@ -12,7 +12,7 @@ export default function GsapMagnetic({children,xcordinate,ycordinate}){
             const rect = await ref.current.getBoundingClientRect();
             xValueRef.current = rect.x;
             yValueRef.current = rect.y;
-            console.log(rect);
+           
             
         }
         getCordinates();
