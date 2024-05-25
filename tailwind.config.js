@@ -23,6 +23,9 @@ export default {
       colors:{
         "dark":"#280949",
         "light":"#d81f56"
+      },
+      fontFamily:{
+        "alata": "Alata, sans-serif"
       }
     }
   },
